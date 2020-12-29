@@ -1,6 +1,6 @@
 <h1>Caesar cipher</h1>
                                                    
-<p>Uusing caesar cipher You can encrypt any text with a key in which each letter is shifted by index k.<p1>
+<p>Using caesar cipher You can encrypt any text with a key in which each letter is shifted by index k.<p1>
 
 <h3>Clone and Run</h3>
 
