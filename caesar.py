@@ -4,19 +4,19 @@ import argparse
 def encrypt(p,k): 
     result = "" 
   
-    # Function to encrypt
+   # The encryption for all chars
     for i in range(len(p)): 
         char = p[i] 
   
-        # Encrypt uppercase
+        # Encrypt the uppercase chars
         if (char.isupper()): 
             result += chr((ord(char) + k-65) % 26 + 65) 
   
-        # Encrypt lowercase  
+        # Encrypt the lowercase chars
         elif (char.islower()): 
             result += chr((ord(char) + k - 97) % 26 + 97)
         
-        #ignore other
+        #Don't encrypt special characters 
         else:
             result += char
   
